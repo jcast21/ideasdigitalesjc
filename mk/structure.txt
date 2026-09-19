@@ -1,0 +1,42 @@
+ideasdigitalesjc.com/tienda/
+├── index.php (Página principal)
+├── producto.php (Detalle de producto)
+├── categoria.php (Productos por categoría)
+├── carrito.php (Carrito de compras)
+├── buscar.php (Resultados de búsqueda)
+│
+├── admin/
+│   ├── index.php (Dashboard)
+│   ├── login.php
+│   ├── logout.php
+│   ├── productos.php (CRUD productos)
+│   ├── categorias.php (CRUD categorías)
+│   ├── pedidos.php (Ver pedidos)
+│   ── includes/
+│       ├── auth.php (Verificación de sesión)
+│       └── header.php
+│
+── includes/
+│   ├── config.php (Conexión BD)
+│   ├── functions.php (Funciones generales)
+│   ├── header.php
+│   ├── footer.php
+│   ├── preloader.php
+│   └── whatsapp-btn.php
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── cart.js
+│   │   └── search.js
+│   ── img/
+│       └── logo.png
+│
+├── uploads/
+│   ├── productos/ (Imágenes de productos)
+│   ── categorias/ (Imágenes de categorías)
+│
+└── database/
+    └── tienda_mk.sql (Script de base de datos)

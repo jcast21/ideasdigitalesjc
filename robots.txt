@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /gracias.html
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://ideasdigitalesjc.com/sitemap.xml
