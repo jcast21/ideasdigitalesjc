@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 Disallow: /gracias.html
@@ -11,4 +12,19 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+=======
+User-agent: *
+Allow: /
+Disallow: /gracias.html
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+>>>>>>> 9d8b66dbad567a5916abc9fe6f6f414b8fe023d9
 Sitemap: https://ideasdigitalesjc.com/sitemap.xml
